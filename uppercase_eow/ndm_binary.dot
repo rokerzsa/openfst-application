@@ -1,0 +1,67 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+label = "";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 0 [label = "A:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "B:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "C:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "D:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "E:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "F:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "G:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "H:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "I:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "J:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "K:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "L:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "M:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "N:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "O:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "P:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "Q:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "R:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "S:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "T:<eps>/1", fontsize = 14];
+	0 -> 1 [label = "U:<eps>/1", fontsize = 14];
+	0 -> 1 [label = "V:<eps>/1", fontsize = 14];
+	0 -> 1 [label = "W:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "X:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "Y:<eps>/1", fontsize = 14];
+	0 -> 0 [label = "Z:<eps>/1", fontsize = 14];
+	0 -> 2 [label = "<eow>:no/1", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 3 [label = "<eow>:yes/1", fontsize = 14];
+	1 -> 1 [label = "A:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "B:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "C:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "D:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "E:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "F:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "G:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "H:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "I:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "J:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "K:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "L:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "M:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "N:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "O:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "P:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "Q:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "R:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "S:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "T:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "U:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "V:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "W:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "X:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "Y:<eps>/1", fontsize = 14];
+	1 -> 1 [label = "Z:<eps>/1", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+3 [label = "3/1", shape = doublecircle, style = solid, fontsize = 14]
+}
