@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # openfst-application
 Application of openfst to create a final state transducer which accepts all the UPPERCASE words containing one or more of U, V or W
 
@@ -113,4 +112,3 @@ the capitalized word that contains the letter any of the letters U, V, or W one 
 <br>$ fstdraw --isymbols=isyms.txt --osymbols=osyms.txt binary.fst binary.dot
 <br>$ dot -Tjpg -Gdpi=300 binary.dot > binary.jpg
 <br>
->>>>>>> 2773c13e2d989f99d4aecbc3df9d90affdb7094f
