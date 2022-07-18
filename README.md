@@ -38,7 +38,7 @@ the capitalized word that contains the letter any of the letters U, V, or W one 
 <br>z 3
 <br>EOF
 <br>
-<br><br><strong>FST File</strong>
+<br><strong>FST File</strong>
 <br>$ cat >text.fst <<EOF
 <br>0 1 a x .5
 <br>0 1 b y 1.5
@@ -47,8 +47,8 @@ the capitalized word that contains the letter any of the letters U, V, or W one 
 <br>EOF
 <br>
 <br><strong>Compilation</strong>
-$ fstprint --keep_isymbols --keep_osymbols --isymbols=isyms.txt --osymbols=osyms.txt binary.fst text.fst
-<br><strong>DRAW FST</strong>
+<br>$ fstprint --keep_isymbols --keep_osymbols --isymbols=isyms.txt --osymbols=osyms.txt binary.fst text.fst
+<br><br><strong>DRAW FST</strong>
 <br>$ fstdraw --isymbols=isyms.txt --osymbols=osyms.txt binary.fst binary.dot
 <br>$ dot -Tjpg -Gdpi=300 binary.dot > binary.jpg
 <br>
