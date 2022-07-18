@@ -9,3 +9,46 @@ the capitalized word that contains the letter any of the letters U, V, or W one 
 <br>Output:- yes
 <br>InputL HELLOMAN
 <br>Output:- no
+<br><br>
+<strong>Requirements</strong>
+<br>1. openfst library
+<br>2. graphviz library
+<br>
+
+# How to install libraries in UBUNTU
+<br><strong>1. openfst library</strong>
+<br>$ apt install libfst-tools
+<br><strong>2. graphviz library</strong>
+<br>$ apt install graphviz
+<br>
+# How does it work?
+<br>
+<br><strong>Input Symbols</strong>
+<br>$ cat >osyms.txt <<EOF
+<br><eps> 0
+<br>a 1
+<br>b 2
+<br>c 3
+<br>EOF
+<br>
+<br><strong>Output Symbols</strong>
+<br><eps> 0
+<br>x 1
+<br>y 2
+<br>z 3
+<br>EOF
+<br>
+<br><br><strong>FST File</strong>
+<br>$ cat >text.fst <<EOF
+<br>0 1 a x .5
+<br>0 1 b y 1.5
+<br>1 2 c z 2.5
+<br>2 3.5
+<br>EOF
+<br>
+<br><strong>Compilation</strong>
+$ fstprint --keep_isymbols --keep_osymbols --isymbols=isyms.txt --osymbols=osyms.txt binary.fst text.fst
+<br><strong>DRAW FST</strong>
+<br>$ fstdraw --isymbols=isyms.txt --osymbols=osyms.txt binary.fst binary.dot
+<br>$ dot -Tjpg -Gdpi=300 binary.dot > binary.jpg
+<br>
