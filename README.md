@@ -20,6 +20,11 @@ the capitalized word that contains the letter any of the letters U, V, or W one 
 <br>$ apt install libfst-tools
 <br><strong>2. graphviz library</strong>
 <br>$ apt install graphviz
+<br><br>or
+<br><br>
+run install_dep.sh file
+<br><strong>Important:</strong> To make the file executable -
+<br> sudo chmod +x install_dep.sh
 <br>
 # How does it work?
 <br>
